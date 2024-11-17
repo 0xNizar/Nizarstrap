@@ -3,9 +3,13 @@
 
 ## Features
 **Responsive Grid System:** Design adaptive layouts effortlessly using a customizable and intuitive grid system.
+
 **Pre-designed Components:** Access a rich library of buttons, forms, navigation, modals, cards, and more.
+
 **Utility Classes:** Simplify common styling tasks with a wide range of utility classes for spacing, alignment, and typography.
+
 **Customizable Themes:** Personalize your projects by tweaking variables for colors, fonts, and spacing.
+
 **Lightweight and Fast:** Optimized for performance with minimal CSS overhead and modular imports.
 
 ## Why Choose Nizarstrap?
