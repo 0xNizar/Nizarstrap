@@ -2,14 +2,12 @@
 **Nizarstrap** is a modern, lightweight, and flexible CSS framework designed to simplify web development and enhance your workflow. Built with responsiveness and modularity at its core, Nizarstrap empowers developers to create stunning, consistent, and user-friendly interfaces with ease.
 
 ## Features
-**Responsive Grid System:** Design adaptive layouts effortlessly using a customizable and intuitive grid system.
-**Pre-designed Components:** Access a rich library of buttons, forms, navigation, modals, cards, and more.
+- **Responsive Grid System:** Design adaptive layouts effortlessly using a customizable and intuitive grid system.
+- **Pre-designed Components:** Access a rich library of buttons, forms, navigation, modals, cards, and more.
+- **Utility Classes:** Simplify common styling tasks with a wide range of utility classes for spacing, alignment, and typography.
+- **Customizable Themes:** Personalize your projects by tweaking variables for colors, fonts, and spacing.
+- **Lightweight and Fast:** Optimized for performance with minimal CSS overhead and modular imports.
 
-**Utility Classes:** Simplify common styling tasks with a wide range of utility classes for spacing, alignment, and typography.
-
-**Customizable Themes:** Personalize your projects by tweaking variables for colors, fonts, and spacing.
-
-**Lightweight and Fast:** Optimized for performance with minimal CSS overhead and modular imports.
 
 ## Why Choose Nizarstrap?
 - A perfect balance between simplicity and power, tailored for developers who value clean, maintainable code.
