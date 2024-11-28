@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 0 var(--base-spacing);
+  padding: 0 1rem;
 }
 
 .col {
@@ -22,11 +22,43 @@
   }
 }
 .m-1 {
-  margin: var(--base-spacing);
+  margin: 4px;
 }
 
 .p-1 {
-  padding: var(--base-spacing);
+  padding: 4px;
+}
+
+.m-2 {
+  margin: 8px;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.m-3 {
+  margin: 16px;
+}
+
+.p-3 {
+  padding: 16px;
+}
+
+.m-4 {
+  margin: 32px;
+}
+
+.p-4 {
+  padding: 32px;
+}
+
+.m-5 {
+  margin: 64px;
+}
+
+.p-5 {
+  padding: 64px;
 }
 
 .text-center {
@@ -52,4 +84,4 @@
 .btn-secondary {
   background-color: var(--secondary-color);
   color: #fff;
-}
+}/*# sourceMappingURL=nizarstrap.css.map */
