@@ -1,23 +1,74 @@
+$gutter-width: 0px;
+$base-spacing: 0px;
+
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0 var(--base-spacing);
+    margin: 0 $gutter-width;
+    padding: 0 $base-spacing;
 }
 
 .col {
+    padding: 0 $gutter-width;
     flex: 1;
     max-width: 100%;
 }
 
-.col-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
+.col-1 { flex: 0 0 8.33%; max-width: 8.33%; }
+.col-2 { flex: 0 0 16.67%; max-width: 16.67%; }
+.col-3 { flex: 0 0 25%; max-width: 25%; }      
+.col-4 { flex: 0 0 33.33%; max-width: 33.33%; }
+.col-5 { flex: 0 0 41.67%; max-width: 41.67%; }
+.col-6 { flex: 0 0 50%; max-width: 50%; }
+.col-12 { flex: 0 0 100%; max-width: 100%; }
+
+@media (min-width: 576px) { /* Small screens */
+    .col-sm-6 { flex: 0 0 50%; max-width: 50%; }
+}
+@media (min-width: 768px) { /* Medium screens */
+    .col-md-6 { flex: 0 0 25%; max-width: 25%; }
+}
+@media (min-width: 992px) { /* Large screens */
+    .col-lg-6 { flex: 0 0 20%; max-width: 20%; }
+}
+@media (min-width: 1200px) { /* Extra large screens */
+    .col-xl-6 { flex: 0 0 16.67%; max-width: 16.67%; }
 }
 
-@media (min-width: 768px) {
-    .col-6 {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.flex-start { display: flex; justify-content: flex-start; }
+.flex-end { display: flex; justify-content: flex-end; }
+.flex-column { display: flex; flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+
+.offset-1 { margin-left: 8.33%; }
+.offset-2 { margin-left: 16.67%; }
+.offset-3 { margin-left: 25%; }
+
+html[dir="rtl"] .container {
+    direction: rtl;
 }
+
+html[dir="rtl"] .offset-1 {
+    margin-right: 8.33%;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .offset-2 {
+    margin-right: 16.67%;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .offset-3 {
+    margin-right: 25%;
+    margin-left: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--gutter-width);
+}
+
+.grid-col-6 { grid-column: span 6; }
+.grid-col-4 { grid-column: span 4; }
