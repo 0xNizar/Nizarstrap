@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --font-family: Roboto, sans-serif;
+  --base-spacing: 1rem;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
