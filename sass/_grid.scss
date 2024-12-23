@@ -4,8 +4,8 @@ $base-spacing: 0px;
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 $gutter-width;
-    padding: 0 $base-spacing;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .col {
